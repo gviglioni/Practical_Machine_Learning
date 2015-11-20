@@ -1,5 +1,3 @@
-# Practical_Machine_Learning
-Repositório referente ao curso de aprendizado de máquina da especialização em Data Science
 # Analysis of Weight Lifting Exercises Dataset
 ## Synopsis
 
