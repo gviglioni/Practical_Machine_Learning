@@ -31,7 +31,7 @@ The data set contains a large number of redundant attributes and it is not possi
 ## Pre-processing the data
 This is one of the important steps as it lets us explore the data set much more meaningfully and also ensures that we maintain only those predictors that are actually needed to provide answers to the questions which we hope to answer.
 ```{r}
-set.seed(0972)
+set.seed(178323)
 training<-training[,colSums(is.na(training)) == 0]
 i1 <- sapply(training,function(x)is.factor(x)&&length(levels(x))!=5)
 training<-training[,!i1]

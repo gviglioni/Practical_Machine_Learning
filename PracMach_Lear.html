@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- saved from url=(0014)about:internet -->
 <html>
 <head>
@@ -190,7 +190,7 @@ testing &lt;- read.csv(&quot;pml-testing.csv&quot;, header = T)
 
 <p>This is one of the important steps as it lets us explore the data set much more meaningfully and also ensures that we maintain only those predictors that are actually needed to provide answers to the questions which we hope to answer.</p>
 
-<pre><code class="r">set.seed(0972)
+<pre><code class="r">set.seed(178323)
 training &lt;- training[, colSums(is.na(training)) == 0]
 i1 &lt;- sapply(training, function(x) is.factor(x) &amp;&amp; length(levels(x)) != 5)
 training &lt;- training[, !i1]
